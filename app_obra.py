@@ -45,7 +45,7 @@ for idx, item in enumerate(itens_obra):
     
     with col:
         with st.container(border=True):
-            st.markdown(f"### {item['icone']} {item['nome']}")
+            st.markdown(f"#### {item['icone']} {item['nome']}")
             st.write(f"Quantidade no(a) **{comodo}**: **{st.session_state.contagem[chave]}**")
             
             c1, c2 = st.columns(2)
