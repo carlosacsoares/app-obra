@@ -5,7 +5,7 @@ import pandas as pd
 st.markdown("""
     <style>
         /* Fixa o topo (Título e Seletor de Cômodo) */
-        div[data-testid="stVerticalBlock"] > div:has(div[data-testid="stSelectbox"]) {
+        div[data-testid="stVerticalBlock"] > div:has(div[data-testid="stdivider"]) {
             position: sticky;
             top: 2.8rem;
             background-color: white;
