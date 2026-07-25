@@ -3,13 +3,13 @@ import pandas as pd
 
 st.set_page_config(page_title="Contador de Obra", layout="wide")
 
-st.title("⚡ Carlos Soares")
+st.subheader("⚡ Carlos Soares")
 
 # 1. Seleção do Cômodo
 comodo = st.selectbox("Selecione o Cômodo:", ["Sala", "Cozinha", "Quarto 1", "Quarto 2", "Quarto 3","Banheiro", "Outro"])
 
 st.divider()
-st.markdown("###📦 Placas e Módulos (Grid)")
+st.markdown("### 📦 Placas e Módulos (Grid)")
 
 # Dicionário dos itens e quantidades
 if 'contagem' not in st.session_state:
