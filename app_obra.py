@@ -1,6 +1,22 @@
 import streamlit as st
 import pandas as pd
 
+# Injeta CSS para FIXAR (congelar) a parte superior da página
+st.markdown("""
+    <style>
+        /* Fixa o topo (Título e Seletor de Cômodo) */
+        div[data-testid="stVerticalBlock"] > div:has(div[data-testid="stSelectbox"]) {
+            position: sticky;
+            top: 2.8rem;
+            background-color: white;
+            z-index: 999;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e6e6e6;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 st.set_page_config(page_title="Contador de Obra", layout="wide")
 
 st.subheader("⚡ Carlos Soares")
