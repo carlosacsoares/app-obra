@@ -3,7 +3,7 @@ import pandas as pd
 
 st.set_page_config(page_title="Contador de Obra", layout="wide")
 
-st.title("⚡ Carlos Soares -  Contagem pontos da Obra")
+st.title("⚡ Carlos Soares")
 
 # 1. Seleção do Cômodo
 comodo = st.selectbox("Selecione o Cômodo:", ["Sala", "Cozinha", "Quarto 1", "Quarto 2", "Quarto 3","Banheiro", "Outro"])
@@ -37,7 +37,7 @@ for item in itens_obra:
         st.session_state.contagem[chave] = 0
 
 # 2. Construção do Grid Visual (3 colunas por linha)
-cols = st.columns(3)
+cols = st.columns(2)
 
 for idx, item in enumerate(itens_obra):
     col = cols[idx % 3]
