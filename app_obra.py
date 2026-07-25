@@ -40,7 +40,7 @@ for item in itens_obra:
 cols = st.columns(2)
 
 for idx, item in enumerate(itens_obra):
-    col = cols[idx % 3]
+    col = cols[idx % 2]
     chave = f"{comodo}_{item['nome']}"
     
     with col:
