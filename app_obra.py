@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+8
 st.set_page_config(page_title="Montador Elétrico", layout="wide")
 
 # CSS para congelar o topo (Menu Fixo)
@@ -42,6 +42,7 @@ lista_modulos = [
     "Nenhum",
     "Tomada Simples 10A",
     "Tomada 20A",
+    "Tomada 220V Vermelha",
     "Interruptor Simples",
     "Interruptor Paralelo (Three-Way)",
     "Interruptor Intermediário (Four-Way)",
