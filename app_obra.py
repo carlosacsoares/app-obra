@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-8
+
 st.set_page_config(page_title="Montador Elétrico", layout="wide")
 
 # CSS para congelar o topo (Menu Fixo)
@@ -18,7 +18,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-    st.markdown(f" ⚡ Levantamento Elétrico - Ponto a Ponto")
+st.markdown(f" ⚡ Levantamento Elétrico - Ponto a Ponto")
 
 # Inicializa o histórico na memória da sessão
 if "pontos_cadastrados" not in st.session_state:
