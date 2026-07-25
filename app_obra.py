@@ -27,7 +27,7 @@ if "pontos_cadastrados" not in st.session_state:
 # --- MENU FIXO NO TOPO ---
 col_loc, col_cx = st.columns(2)
 with col_loc:
-    local = st.selectbox("📍 Local / Cômodo:", ["Sala", "Cozinha", "Quarto 1", "Quarto 2", "Banheiro", "Corredor", "Outro"])
+    local = st.selectbox("📍 Local / Cômodo:", ["Sala", "Sala Estar","Cozinha", "Cozinha Gourmet","Quarto 1", "Quarto 2", "Banheiro Suite", "Banheiro Social","Corredor", "Outro"])
 
 with col_cx:
     tamanho_caixa = st.radio("📦 Tamanho da Caixa na Parede:", ["Caixa 4x2 (Máx. 3 Módulos)", "Caixa 4x4 (Máx. 6 Módulos)"], horizontal=True)
