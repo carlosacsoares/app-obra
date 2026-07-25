@@ -40,6 +40,7 @@ st.markdown(f"**Selecione os Módulos para este ponto (Capacidade: {limite_max} 
 # Lista de Módulos disponíveis
 lista_modulos = [
     "Nenhum",
+    "Modulo Cego",
     "Tomada Simples 10A",
     "Tomada 20A",
     "Tomada 220V Vermelha",
