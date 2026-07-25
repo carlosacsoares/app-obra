@@ -9,7 +9,7 @@ st.title("⚡ Carlos Soares")
 comodo = st.selectbox("Selecione o Cômodo:", ["Sala", "Cozinha", "Quarto 1", "Quarto 2", "Quarto 3","Banheiro", "Outro"])
 
 st.divider()
-st.subheader("📦 Placas e Módulos (Grid)")
+st.markdown("###📦 Placas e Módulos (Grid)")
 
 # Dicionário dos itens e quantidades
 if 'contagem' not in st.session_state:
