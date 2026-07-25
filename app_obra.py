@@ -18,7 +18,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-    st.markdown("### ⚡ Levantamento Elétrico - Ponto a Ponto")
+    st.markdown(f" ⚡ Levantamento Elétrico - Ponto a Ponto")
 
 # Inicializa o histórico na memória da sessão
 if "pontos_cadastrados" not in st.session_state:
